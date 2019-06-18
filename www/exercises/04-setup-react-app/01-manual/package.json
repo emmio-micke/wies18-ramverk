@@ -1,0 +1,27 @@
+{
+  "name": "01-manual",
+  "version": "1.0.0",
+  "description": "Setup project with react, typescript and webpack.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "app": "npm-run-all --parallel build-watch live-server",
+    "build-watch": "webpack-cli --watch",
+    "live-server": "live-server"
+  },
+  "author": "mikael.olsson@emmio.se",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "^16.8.19",
+    "@types/react-dom": "^16.8.4",
+    "live-server": "^1.2.1",
+    "npm-run-all": "^4.1.5",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "source-map-loader": "^0.2.4",
+    "typescript": "^3.5.1"
+  }
+}

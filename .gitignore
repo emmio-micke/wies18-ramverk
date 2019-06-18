@@ -42,3 +42,5 @@ Temporary Items
 .history
 
 # End of https://www.gitignore.io/api/macos,visualstudiocode
+www/exercises/04-setup-react-app/01-manual/dist
+www/exercises/04-setup-react-app/01-manual/node_modules
